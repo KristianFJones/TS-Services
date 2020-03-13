@@ -9,7 +9,9 @@
     "test": "jest",
     "start:debug": "node --nolazy --inspect-brk=0.0.0.0 --loader @k-foss/ts-esnode --experimental-modules --harmony-optional-chaining --experimental-specifier-resolution=node --harmony-top-level-await ./src/index.ts"
   },
-  "dependencies": {},
+  "dependencies": {
+    "fastify": "^2.12.1"
+  },
   "devDependencies": {
     "@k-foss/ts-esnode": "^1.1.0",
     "@types/node": "^13.9.0",
